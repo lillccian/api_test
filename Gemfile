@@ -1,4 +1,6 @@
 source 'https://rubygems.org'
+# lillccian
+gem 'mysql2'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
