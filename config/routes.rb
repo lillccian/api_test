@@ -7,4 +7,5 @@ Rails.application.routes.draw do
 	    # resources :microposts, only: [:index, :create, :show, :update, :destroy]
 	  end
 	end
+	resources :users
 end
