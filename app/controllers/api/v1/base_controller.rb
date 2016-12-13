@@ -1,4 +1,5 @@
 class Api::V1::BaseController < ApplicationController
+	skip_before_action :verify_authenticity_token
   # disable the CSRF token
   protect_from_forgery with: :null_session
 
