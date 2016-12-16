@@ -10,7 +10,7 @@ class Api::V1::UsersController < Api::V1::BaseController
     render json: {:message =>"add"}
 	end
   def update
-    @user = User.update(user_params)
+    @user.update(user_params)
     render json: {:message =>"edit"}
   end
   def destroy
