@@ -1,6 +1,8 @@
 # config valid only for current version of Capistrano
 `ssh-add`
 
+lock "3.7.1"
+
 set :application, "api_test"
 set :repo_url, "git@github.com:lillccian/api_test.git"
 
